@@ -17,11 +17,19 @@ public class first {
 
 //String a="In windows , the main drive is usually C:\\";
 //        System.out.println(a);
-        String b="I can do backslashes \\, double backslashes \\\\,\nand the amazing triple backslashes \\\\\\!";
-        System.out.println(b);
-
+//        String b="I can do backslashes \\, double backslashes \\\\,\nand the amazing triple backslashes \\\\\\!";
+//        System.out.println(b);
+        System.out.println(sumOfNumbers(2,3));
 
     }
+
+
+//    Create a method that takes two integers as arguments and return their sum.
+  public static int sumOfNumbers(int a,int b){
+       return a+b;
+  }
+
+
 }
 
 
