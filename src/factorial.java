@@ -9,7 +9,7 @@ public class factorial {
     public static void factorial() {
         Scanner userInput = new Scanner(System.in);
         boolean keepGoing = true;
-        int fact = 1;
+        long fact = 1;
         do {
             System.out.println("enter an integer from 1 to 10");
              String input = userInput.next();
@@ -17,11 +17,11 @@ public class factorial {
                {
                    break;
                }
-            int number=Integer.parseInt(input);
+            long number=Long.parseLong(input);
                 if (number < 1 || number > 10 ) {
                     System.out.println("Enter a valid number please");
                 } else {
-                    for (int i = 1; i <= number; i++) {
+                    for (long i = 1; i <= number; i++) {
                         fact = fact * i;
                     }
                     System.out.println(fact);

@@ -19,16 +19,29 @@ public class first {
 //        System.out.println(a);
 //        String b="I can do backslashes \\, double backslashes \\\\,\nand the amazing triple backslashes \\\\\\!";
 //        System.out.println(b);
-        System.out.println(sumOfNumbers(2,3));
-
+//        System.out.println(sumOfNumbers(2,3));
+        System.out.println(checkEndsWith("Mrina","aa"));
+//
     }
 
 
 //    Create a method that takes two integers as arguments and return their sum.
-  public static int sumOfNumbers(int a,int b){
-       return a+b;
-  }
 
+public static int sumOfNumbers(int num1,int num2){
+    return num1+num2;
+    }
+
+
+
+
+
+//    Create a function that takes two strings and returns true if the first string ends with the second string; otherwise return false.
+public static boolean checkEndsWith (String str1, String str2) {
+
+    if (str1.endsWith(str2)) {
+        return true;
+    }return false;
+}
 
 }
 
@@ -39,3 +52,4 @@ public class first {
 //.length --> length of the string
 //.replace (old char with new character)
 //String replace(String pattern, String replacement)
+//.endsWith & .startWith() determine if one string starts/ends with an exact copy of the other
